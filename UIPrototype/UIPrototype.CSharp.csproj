@@ -92,6 +92,10 @@
     <Compile Include="Assets\Scripts\MiniMapCameraBehavior.cs" />
     <Compile Include="Assets\Scripts\MyButtonScript.cs" />
     <Compile Include="Assets\Scripts\MyEventSystem.cs" />
+    <Compile Include="Assets\Scripts\NPCScripts\IActivateable.cs" />
+    <Compile Include="Assets\Scripts\NPCScripts\NPC.cs" />
+    <Compile Include="Assets\Scripts\NPCScripts\NPCInteraction.cs" />
+    <Compile Include="Assets\Scripts\NPCScripts\TextBoxManager.cs" />
     <Compile Include="Assets\Scripts\PopulateTargetList.cs" />
     <Compile Include="Assets\Scripts\QuestGuideManager.cs" />
     <Compile Include="Assets\Scripts\SaveInformation.cs" />
