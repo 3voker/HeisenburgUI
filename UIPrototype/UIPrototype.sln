@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIPrototype.CSharp", "UIPrototype.CSharp.csproj", "{B9F7C71B-D42B-A6C2-C41F-DCC81489F3D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIPrototype.CSharp.Editor", "UIPrototype.CSharp.Editor.csproj", "{2D04432E-8B3A-93DB-5C51-713A3202E68E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{B9F7C71B-D42B-A6C2-C41F-DCC81489F3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F7C71B-D42B-A6C2-C41F-DCC81489F3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F7C71B-D42B-A6C2-C41F-DCC81489F3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D04432E-8B3A-93DB-5C51-713A3202E68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D04432E-8B3A-93DB-5C51-713A3202E68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D04432E-8B3A-93DB-5C51-713A3202E68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D04432E-8B3A-93DB-5C51-713A3202E68E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

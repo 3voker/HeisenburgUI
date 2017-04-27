@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Unfortunate Goron</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Start Dialogue</Title>
+      <Text>Hello there traveler! Just head over to that white stump and press the 'J' key. Also there's some dudes go kill 'em.</Text>
+      <Options>
+        <Option>
+          <text>Okay.</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>	
+    </Node>
+  </Nodes>
+</CharacterDialogue>

@@ -2,7 +2,7 @@
 using System.Collections;
 namespace UnitySampleAssets.Characters.ThirdPerson
 {
-    public class TargetLockOn : ActivateLookedAtObjects
+    public class TargetLockOn 
     {
 
         [SerializeField]
@@ -17,29 +17,29 @@ namespace UnitySampleAssets.Characters.ThirdPerson
 
         void Start()
         {
-            anim = GetComponent<Animation>();
+            anim = GameObject.FindGameObjectWithTag("Cursor").GetComponent<Animation>();
             anim.Play("targetCursor");
         }
 
         void Update()
         {
 
-            RaycastHit raycastHit;
-            if (Physics.Raycast(transform.position, transform.forward, out raycastHit,
-                maxDistanceToActivateObjects, layerActivatableObjectsAreOn))
-            {
+            //RaycastHit raycastHit;
+            //if (Physics.Raycast(transform.position, transform.forward, out raycastHit,
+            //    maxDistanceToActivateObjects, layerActivatableObjectsAreOn))
+            //{
 
-                if (objectLookedAt != null)
-                {
-                    // anim = GetComponent<Animation>();
-                    //     anim.SetTrigger("ConfirmCursor");
-                }
-                else
-                {
+            //    if (objectLookedAt != null)
+            //    {
+            //        // anim = GetComponent<Animation>();
+            //        //     anim.SetTrigger("ConfirmCursor");
+            //    }
+            //    else
+            //    {
 
-                }
+            //    }
 
-            }
+            //}
 
             //this.RectTransform(0, 0, rotationSpeed * rotationSpeedModifier * Time.deltaTime);
         }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Link</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Tutorial1</Title>
+      <Text>I know you don't want to do this Link, but the time soon approaches in which you'll have to pick up a sword and shield.</Text>
+      <Options>
+        <Option>
+          <text>Next</text>
+          <destinationNodeID>1</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>1</ID>
+      <Title>Tutorial2</Title>
+      <Text>So again, watch me closely. </Text>
+      <Options>
+        <Option>
+          <text>Close</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>
+    </Node>
+  </Nodes>
+</CharacterDialogue>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Goron Emmissary</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Dialogue Start.</Title>
+      <Text>The King of the Gorons requests that you meet with him to discuss the political relations between our people.</Text>
+      <Options>
+        <Option>
+          <text>I accept the invitation.</text>
+          <destinationNodeID>1</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Never! I will attack you!</text>
+          <destinationNodeID>2</destinationNodeID>
+          <barkNum>4</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>1</ID>
+      <Title>Accept</Title>
+      <Text>Good. Just head through the door to begin the journey.</Text>
+      <Options>
+        <Option>
+          <text>Thank you.</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>2</ID>
+      <Title>Refuse</Title>
+      <Text>(Head to the wartable in the starting room to enter the tactical battle options.)</Text>
+      <Options>
+        <Option>
+          <text>Smell ya later</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+        <Option>
+          <text>Smell ya later</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+  </Nodes>
+</CharacterDialogue>

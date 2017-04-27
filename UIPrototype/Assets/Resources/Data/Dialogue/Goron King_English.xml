@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Goron King</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Dialogue Start</Title>
+      <Text>Welcome Lord Ganondorf. I trust your journey was and easy one?</Text>
+      <Options>
+        <Option>
+          <text>No complaints</text>
+          <destinationNodeID>1</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Your people are annoying</text>
+          <destinationNodeID>2</destinationNodeID>
+          <barkNum>4</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>1</ID>
+      <Title>No complaints</Title>
+      <Text>Good, good. I would hate to hear that you had encountered trouble on the road.</Text>
+      <Options>
+        <Option>
+          <text>Your people are suffering</text>
+          <destinationNodeID>3</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Why call me here?</text>
+          <destinationNodeID>4</destinationNodeID>
+          <barkNum>2</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>2</ID>
+      <Title>Insult</Title>
+      <Text>Excuse me? Is this how you greet a fellow monarch who offers you an alliance?</Text>
+      <Options>
+        <Option>
+          <text>What Alliance?</text>
+          <destinationNodeID>4</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>With you?</text>
+          <destinationNodeID>5</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>With you?</text>
+          <destinationNodeID>5</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>3</ID>
+      <Title>Show Concern</Title>
+      <Text>I am aware. Much and more has been happening of late. But I believe that we are not alone in suffering hardship. I have called you here to offer you an alliance to strengthen both our countries. What say you?</Text>
+      <Options>
+        <Option>
+          <text>I accept your offer.</text>
+          <destinationNodeID>6</destinationNodeID>
+          <barkNum>2</barkNum>
+        </Option>
+        <Option>
+          <text>As if!</text>
+          <destinationNodeID>5</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>4</ID>
+      <Title>Alliance Info</Title>
+      <Text>Right to the point I see. That is a qulity I appretiate, I called you here to offer you an alliance between our people. What say you?</Text>
+      <Options>
+        <Option>
+          <text>I accept your offer.</text>
+          <destinationNodeID>6</destinationNodeID>
+          <barkNum>2</barkNum>
+        </Option>
+        <Option>
+          <text>Hell no!</text>
+          <destinationNodeID>5</destinationNodeID>
+          <barkNum>4</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>5</ID>
+      <Title>Refuse</Title>
+      <Text>It is a shame to see you act so arrogantly. Very well then.</Text>
+      <Options>
+        <Option>
+          <text>Bye</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>2</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>6</ID>
+      <Title>Accept</Title>
+      <Text>I am glad we could reach an agreement. I hope both of our nations prosper greatly from this meeting.</Text>
+      <Options>
+        <Option>
+          <text>Goodbye.</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>
+    </Node>
+  </Nodes>
+</CharacterDialogue>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Goron City Guard</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Dialogue Start</Title>
+      <Text>Halt state your buisness. </Text>
+      <Options>
+        <Option>
+          <text>I am here to see your king.</text>
+          <destinationNodeID>1</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Piss off.</text>
+          <destinationNodeID>2</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>1</ID>
+      <Title>Seeing the king</Title>
+      <Text>Head over to the big building in the back of the town.</Text>
+      <Options>
+        <Option>
+          <text>Thank you.</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>2</ID>
+      <Title>Piss off</Title>
+      <Text>Insulent outsider!</Text>
+      <Options>
+        <Option>
+          <text>Later!</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+  </Nodes>
+</CharacterDialogue>

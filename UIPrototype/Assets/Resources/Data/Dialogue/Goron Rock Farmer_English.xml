@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CharacterDialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>English</Language>
+  <Name>Goron Rock Farmer</Name>
+  <Nodes>
+    <Node>
+      <ID>0</ID>
+      <Title>Dialogue Start</Title>
+      <Text>Help! Help me please!</Text>
+      <Options>
+        <Option>
+          <text>What Happend?</text>
+          <destinationNodeID>1</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Nah I don't want to.</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>4</barkNum>
+        </Option>
+      </Options>
+    </Node>
+    <Node>
+      <ID>1</ID>
+      <Title>What's Wrong?</Title>
+      <Text>I was attacked by bandits on my way to Goron city. They blindsided me and stole all of my produce(rocks). Please you must help me!</Text>
+      <Options>
+        <Option>
+          <text>Leave it to me!</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>1</barkNum>
+        </Option>
+        <Option>
+          <text>Not My Problem</text>
+          <destinationNodeID>32</destinationNodeID>
+          <barkNum>3</barkNum>
+        </Option>
+      </Options>
+    </Node>
+  </Nodes>
+</CharacterDialogue>
